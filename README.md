@@ -10,7 +10,12 @@ This repository includes the 'Lipophilicity.csv' dataset in 'data' folder, 'trai
 
 Before running the script, you need to set up the environment. Use the provided `environment.yml` file to create a conda environment with all the necessary dependencies:
 
-1. **Create the conda environment**:
+1. **Clone the GitHub Repository**:
+   ```bash
+   git clone https://github.com/huangs9/lipophilicity_model
+   cd lipophilicity_model
+
+2. **Create the Conda Environment**:
    ```bash
    conda env create -f environment.yml
 

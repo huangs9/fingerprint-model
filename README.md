@@ -11,5 +11,6 @@ Navigate to the `scripts/` directory and run the following command:
 
 ```bash
 cd scripts/
+conda activate lipophilicity_model
 python train_model.py --hidden_layers 100 50 --max_iter 1000
 
